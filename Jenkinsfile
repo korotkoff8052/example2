@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Stage 123') {
+        stage('Stage 1234') {
             steps {
                 echo 'Hello World 1'
                 build job:'MyFirstJob'
